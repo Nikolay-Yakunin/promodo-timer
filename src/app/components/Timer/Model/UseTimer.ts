@@ -31,7 +31,9 @@ export const useTimer = ({ workTime, breakTime }: UseTimerProps) => {
 
   const startTimer = () => {
     if (!intervalId) {
-      setTimerState('WORK');
+      if (timerState === 'IDLE') {
+        setTimerState('WORK');
+      }
       const id = setInterval(() => {
         setTimeLeft((prevTime) => prevTime - 1);
       }, 1000); // Обновляем каждую секунду
