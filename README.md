@@ -1,4 +1,4 @@
-This is not a very finalized app, I will refactor and add more features in this project..... maybe)
+This is not a very finalized app, I will refactor and add more features in this project... maybe)
 
 ## Getting Started
 
