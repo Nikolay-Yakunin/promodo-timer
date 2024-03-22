@@ -1,4 +1,4 @@
-It's not a complite aplication? i refact and add more features in this project... maybe)
+This is not a very finalized app, I will refactor and add more features in this project..... maybe)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
