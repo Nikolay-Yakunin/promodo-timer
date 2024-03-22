@@ -109,7 +109,7 @@ Example: `{ workTime: 25, breakTime: 5 }`
 ## Method Descriptions
 
 ### startTimer
-Starts the countdown for the work period.
+Starts the countdown for the period. If the period is "IDLE", period chnges to "WORK".
 
 ### pauseTimer
 Pauses the timer, keeping the current time.
